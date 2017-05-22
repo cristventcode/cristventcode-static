@@ -1,0 +1,201 @@
+﻿
+.no-padding {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar-custom {
+    background-color: white;
+    z-index: 1030;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+    .navbar-custom a {
+        color: #29AF6A;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.8rem;
+    }
+
+.navbar-brand {
+    font-weight: 900;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.section-hero {
+    height: 350px;
+    background-color: #29AF6A;
+    color: white;
+    padding-top: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.hero {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+.hero-text p {
+    font-size: 2rem;
+    color: hsla(0,0%,100%,.75);
+}
+
+.personal-image {
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: 20px;
+}
+
+.personal-image-small {
+    height: 100px;
+}
+
+.section-hero-small {
+    height: 150px;
+}
+
+.navbar-toggle {
+    background-color: white;
+}
+
+    .navbar-toggle span {
+        background-color: #29AF6A;
+    }
+
+
+
+.large-holder {
+    margin: 50px 0px;
+}
+
+.body-content {
+    background-color: #f2f2f8;
+    padding: 0px;
+}
+
+.card-details {
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: #6b7c93;
+    font-size: 1.6rem;
+    min-height: 170px;
+}
+
+    .card-details h3, h4 {
+        margin: 0px;
+        color: grey;
+    }
+
+    .card-details li {
+        margin-bottom: 5px;
+    }
+
+.list-group-item-heading {
+    background-color: #29AF6A;
+    color: white;
+}
+
+.aside-holder .card-details {
+    background-color: transparent;
+    padding-top: 0px;
+}
+
+#edit-page-image {
+    height: 200px;
+}
+
+.edit-page-tabs {
+    background-color: white;
+}
+
+    .edit-page-tabs h4 {
+        padding: 15px;
+    }
+
+    .edit-page-tabs .nav-tabs {
+        margin-left: 15px;
+    }
+
+    .edit-page-tabs .tab-content {
+        padding: 0px 15px 15px 15px;
+    }
+
+footer {
+    text-align: center;
+}
+
+.skill-tag {
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #00A1DF;
+    color: white;
+    border-radius: 4px;
+}
+
+.link-tag {
+    margin: 0px 20px;
+    padding: 5px 10px;
+}
+
+.link-tag-holder {
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.contact-icons {
+    margin-right: 12px;
+}
+
+@media(min-width: 768px) {
+    .hero-text h1 {
+        font-size: 4rem;
+    }
+
+    .navbar-collapse {
+        background-color: transparent;
+    }
+
+    .navbar {
+        border-radius: 0px;
+    }
+
+    .card-holder {
+        padding-right: 0px;
+    }
+
+    .body-content, .navbar, .navbar-custom {
+        width: 100%;
+    }
+}
+
+@media(min-width: 1440px) {
+    .body-content, .navbar, .navbar-custom {
+        width: 100%;
+        /*margin: 0px auto;*/
+    }
+
+    .navbar-custom {
+        padding: 0px 45px;
+    }
+}
