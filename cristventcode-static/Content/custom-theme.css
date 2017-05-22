@@ -20,10 +20,6 @@
         font-size: 1.8rem;
     }
 
-.navbar-brand {
-    font-weight: 900;
-}
-
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
@@ -165,6 +161,12 @@ footer {
 
 .contact-icons {
     margin-right: 12px;
+}
+
+.navbar-header .navbar-brand {
+    font-size: x-large;
+    padding-top: 14px;
+    font-weight: bold;
 }
 
 @media(min-width: 768px) {
