@@ -29,6 +29,21 @@ footer {
     text-align: center;
 }
 
+
+.lye-cal-all {
+    font-family: 'Lato', sans-serif;
+}
+
+.panel-heading a {
+    font-weight: bold;
+    color: steelblue;
+}
+
+tr > td:first-child {
+    width: 50%;
+}
+
+
 .error-message {
     color: red;
     margin: 10px 0px;
@@ -78,10 +93,6 @@ table {
 }
 
 
-/*.result-tb-hd-total{
-    background-color: lightgray;
-    color: steelblue;
-}*/
 
 .recipe-info input,
 textarea {
@@ -105,5 +116,13 @@ textarea {
     .print-view {
         width: 50% !important;
         float: left !important;
+    }
+
+    .panel, .panel-body {
+        border: none !important;
+    }
+
+    .panel {
+        margin-top: -50px !important;
     }
 }

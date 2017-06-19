@@ -64,7 +64,7 @@ var locationList = document.getElementById("ing-list-section"),
 
 // Step 1 button actions
 step1Submit.addEventListener("click", function () {
-    if (typeSelect.value == "-1" || typeSelect.unit == "-1") {
+    if (typeSelect.value == "-1" || unitSelect.value == "-1") {
         document.getElementById("step1-error").innerText = "Please select TYPE and UNIT"
     } else {
         step1.type = typeSelect.value;
