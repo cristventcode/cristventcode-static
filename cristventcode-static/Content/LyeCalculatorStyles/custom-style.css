@@ -35,8 +35,8 @@ footer {
 }
 
 .panel-heading a {
-    font-weight: bold;
     color: steelblue;
+    font-size: 1.2em;
 }
 
 tr > td:first-child {
@@ -92,8 +92,6 @@ table {
     line-height: 1.428571429;
 }
 
-
-
 .recipe-info input,
 textarea {
     max-width: none;
@@ -102,6 +100,11 @@ textarea {
 @media (min-width: 768px) {
     #amount-table > thead > tr > th:first-child {
         width: 30%;
+    }
+
+    #result-table-holder{
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 

@@ -4,6 +4,12 @@
     padding-left: 0px;
 }
 
+.lye-cal-image {
+    width: 280px;
+    margin-left: 8px;
+    margin-top: -20px;
+}
+
 .navbar-custom {
     background-color: white;
     z-index: 1030;
