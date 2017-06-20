@@ -114,7 +114,7 @@
     }
 
 .list-group-item-heading {
-    background-color: #29AF6A;
+    background-color: slategrey;
     color: white;
 }
 
@@ -185,45 +185,45 @@ footer {
 }
 
 @media(min-width: 400px) {
-    .lye-cal-image{
+    .lye-cal-image {
         margin-left: 50px;
     }
 }
 
 
-    @media(min-width: 768px) {
-        .hero-text h1 {
-            font-size: 4rem;
-        }
-
-        .lye-cal-image {
-            margin-left: 7px;
-        }
-
-        .navbar-collapse {
-            background-color: transparent;
-        }
-
-        .navbar {
-            border-radius: 0px;
-        }
-
-        .card-holder {
-            padding-right: 0px;
-        }
-
-        .body-content, .navbar, .navbar-custom {
-            width: 100%;
-        }
+@media(min-width: 768px) {
+    .hero-text h1 {
+        font-size: 4rem;
     }
 
-    @media(min-width: 1440px) {
-        .body-content, .navbar, .navbar-custom {
-            width: 100%;
-            /*margin: 0px auto;*/
-        }
-
-        .navbar-custom {
-            padding: 0px 45px;
-        }
+    .lye-cal-image {
+        margin-left: 6px;
     }
+
+    .navbar-collapse {
+        background-color: transparent;
+    }
+
+    .navbar {
+        border-radius: 0px;
+    }
+
+    .card-holder {
+        padding-right: 0px;
+    }
+
+    .body-content, .navbar, .navbar-custom {
+        width: 100%;
+    }
+}
+
+@media(min-width: 1440px) {
+    .body-content, .navbar, .navbar-custom {
+        width: 100%;
+        /*margin: 0px auto;*/
+    }
+
+    .navbar-custom {
+        padding: 0px 45px;
+    }
+}

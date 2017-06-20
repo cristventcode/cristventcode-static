@@ -1,0 +1,73 @@
+﻿
+@Styles.Render("~/Content/MusicSearch/custom-style.css")
+
+
+<div class="section-hero section-hero-small">
+    <div class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1> Music Search </h1>
+                <p> Look for your favorites</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-xs-12 large-holder no-padding music-search-all">
+    <div class=" col-md-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3> Search </h3>
+            </div>
+            <div class="panel-body">
+                <div id="search-area">
+                        <div class="form-group">
+                            <label for="search-person"> Artist Name </label>
+                            <input type="text" class="form-control" id="search-person" name="search-person" placeholder="Artist Name">
+                        </div>
+                    <button class="btn" id="get-artist"> Search </button>
+                    <button class="btn" id="clear-results"> Clear Results </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="albums-holder" class="col-md-4 hidden">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 id="artist-name"> Albums </h3>
+            </div>
+            <div class="panel-body">
+                <ul id="artist-list" class="list-group"></ul>
+            </div>
+        </div>
+    </div>
+    <div id="details-holder" class="container col-md-5 hidden">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 id="more-details"> Details </h3>
+            </div>
+            <div class="panel-body no-padding">
+                <ul id="details-list" class="list-group">
+                    <li class="list-group-item"> <img id="details-album-art" src="#"> </li>
+                    <li class="list-group-item"> Artist: <span id="details-artist"> </span></li>
+                    <li class="list-group-item"> Album: <span id="details-album"> </span></li>
+                    <li class="list-group-item"> Release Date: <span id="details-release"> </span></li>
+                    <li class="list-group-item"> Genre: <span id="details-genre"> </span></li>
+                    <li class="list-group-item"> Price: <span id="details-price"> </span></li>
+                    <li class="list-group-item">
+                        <button id="song-list-button" class="btn btn-xs" data-toggle="collapse" data-target="#song-list">View Songs</button>
+                        <ul id="song-list" class="collapse list-group">
+
+
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <a id="buynow-link" href="" target="_blank" class="btn btn-success"> Buy Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Scripts.Render("~/Scripts/MusicSearch/actions.js")

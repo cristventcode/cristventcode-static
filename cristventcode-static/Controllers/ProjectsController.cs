@@ -13,5 +13,10 @@ namespace cristventcode_static.Controllers
         {
             return View();
         }
+
+        public ActionResult MusicSearch()
+        {
+            return View();
+        }
     }
 }
