@@ -124,10 +124,10 @@
                 var songItem = document.createElement("li"),
                     number = document.createElement("span");
 
-                number.classList.add("song-number");
-                number.innerText = counter++;
+                number.classList.add("song-name");
+                number.innerText = element;
                 songItem.classList.add("list-group-item");
-                songItem.innerText = element;
+                songItem.innerText = counter++;
                 songItem.appendChild(number);
                 songList.appendChild(songItem);
             };
