@@ -53,7 +53,6 @@
 }
 
 
-
 .hero-text p {
     font-size: 2rem;
     color: hsla(0,0%,100%,.75);
@@ -81,8 +80,6 @@
     .navbar-toggle span {
         background-color: #29AF6A;
     }
-
-
 
 .large-holder {
     margin: 50px 0px;
