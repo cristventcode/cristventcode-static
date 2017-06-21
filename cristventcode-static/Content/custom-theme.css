@@ -176,6 +176,7 @@ footer {
 
 .transparent-back {
     background-color: transparent !important;
+    visibility: visible;
 }
 
 .transparent-back hr {
