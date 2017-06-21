@@ -215,7 +215,11 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\custom-theme.css" />
+    <Content Include="Content\images\iPhone-6-4,7-inch-Three-colors-Mockup.png" />
+    <Content Include="Content\images\iphone_6_mockup.png" />
+    <Content Include="Content\images\lye-iphone.png" />
     <Content Include="Content\images\lye-phone.png" />
+    <Content Include="Content\images\music-iphone.png" />
     <Content Include="Content\images\personal-image-small.jpg" />
     <Content Include="Content\images\personal-image.jpg" />
     <Content Include="Content\LyeCalculatorStyles\custom-style.css" />
