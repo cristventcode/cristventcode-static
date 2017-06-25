@@ -1,0 +1,27 @@
+﻿
+
+<div class="section-hero section-hero-small project-color">
+    <div class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1> Checklist </h1>
+                <p> Create a list and check off</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-xs-12 large-holder no-padding lye-cal-all">
+
+    <div class="col-xs-12 col-md-6 no-padding">
+    <app-root>Loading...</app-root>
+        </div>
+</div>
+
+@section Scripts{
+    @Scripts.Render("~/Scripts/CheckList/inline.bundle.js")
+    @Scripts.Render("~/Scripts/CheckList/polyfills.bundle.js")
+    @Scripts.Render("~/Scripts/CheckList/styles.bundle.js")
+    @Scripts.Render("~/Scripts/CheckList/vendor.bundle.js")
+    @Scripts.Render("~/Scripts/CheckList/main.bundle.js")
+}

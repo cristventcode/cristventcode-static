@@ -18,5 +18,10 @@ namespace cristventcode_static.Controllers
         {
             return View();
         }
+
+        public ActionResult CheckList()
+        {
+            return View();
+        }
     }
 }

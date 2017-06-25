@@ -294,10 +294,12 @@
     <Content Include="Views\Home\Skills.cshtml" />
     <Content Include="Views\Projects\LyeCalculator.cshtml" />
     <Content Include="Views\Projects\MusicSearch.cshtml" />
+    <Content Include="Views\Projects\CheckList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="bin\" />
+    <Folder Include="Scripts\CheckList\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
