@@ -5,7 +5,7 @@
 }
 
 .lye-cal-image {
-    width: 280px;
+    width: 200px;
     margin: 0px auto;
 }
 
@@ -175,13 +175,24 @@ footer {
 
 
 .transparent-back {
-    background-color: transparent !important;
-    visibility: visible;
+    /*background-color: transparent !important;
+    visibility: visible;*/
 }
+
+.card-bordered {
+    border-radius: 4px;
+    border: 1px solid black;
+    border-color: steelblue;
+} 
+
 
 .transparent-back hr {
     margin-top: 8px;
     margin-bottom: 8px;
+}
+
+.transparent-back a {
+    color: #29AF6A;
 }
 
 .project-color {
