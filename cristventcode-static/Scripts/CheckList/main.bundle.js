@@ -89,7 +89,7 @@ var AppComponent = (function () {
         this.newItem = new listItem;
     }
     AppComponent.prototype.addNewItem = function (event) {
-        if (event.key === "Enter") {
+        if (event.key === "Enter" || event.keyCode === 13) {
             this.newItem.id = ++idCounter;
             var newTemp = this.newItem;
             this.allItems.push(newTemp);
