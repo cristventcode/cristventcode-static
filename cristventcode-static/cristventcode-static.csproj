@@ -306,7 +306,6 @@
     <Content Include="Views\Projects\LyeCalculator.cshtml" />
     <Content Include="Views\Projects\MusicSearch.cshtml" />
     <Content Include="Views\Projects\CheckList.cshtml" />
-    <Content Include="Views\Home\TestingProject.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
